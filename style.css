@@ -1,0 +1,85 @@
+/* Developed by Preety-(22112024) */
+
+.Zone {
+    padding: 0%;
+    color: black;
+}
+
+.blue {
+    background-color: plum 
+}
+
+.nav-bar {
+    display: flex;
+    gap: 60px;
+    font-size: 2.2em;
+    margin: 0;
+}
+
+.push {
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.bc {
+    background-color: beige;
+}
+
+.cover {
+    display: flex;
+    font-size: 3rem;
+    border-radius: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.cover > img {
+    width: 30rem;
+    
+}
+
+
+.grid-wrapper {
+    display: grid;
+    gap: 50px;
+    background-color: rgb(141, 183, 59);
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.pro{
+    background: powderblue;
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+
+.pro:hover {
+    -webkit-transform:rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+.footer {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+
+}
+
+.pro button {
+    font-size: 0.6em;
+    padding: 15px 30px;
+}
