@@ -51,7 +51,7 @@ li {
 .grid-wrapper {
     display: grid;
     gap: 50px;
-    background-color: rgb(141, 183, 59);
+    background-color: rgb(64, 60, 60);
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
